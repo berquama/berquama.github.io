@@ -15,11 +15,12 @@ body img {
   height: auto;
 }
 
-/* Add a black background color to the top navigation */
+/* Add a background color to the top navigation */
 .topnav {
   position: relative;
-  background-color: black;
+  background-color: #2f6366;
   overflow: hidden;
+  height: 80px;
 }
 
 /* Style the links inside the navigation bar */
@@ -34,13 +35,13 @@ body img {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #408185;
+  color: white;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #cc5500;
+  background-color: #408185;
   color: white;
 }
 
