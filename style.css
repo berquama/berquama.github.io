@@ -7,21 +7,44 @@ body {
   
 }
 
-#home-image {
+.container {
+  margin: auto;
+  position: relative;
   border-radius: 200px;
   width: 400px;
+  margin-top: 20%;
+}
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   height: 400px;
+  width: 400px;
+  border-radius: 200px;
   border: 5px solid red;
 }
 
-#home-image.hover {
-  border: 10px solid green;
+.overlay {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 410px;
+  width: 410px;
+  border-radius: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #39ff14;
 }
 
-
-.image-box {
-  height: 1080px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.container:hover .overlay {
+  opacity: .3;
+}
+.container:hover .image {
+  border: 5px solid #39ff14;
+  transition: .75s ease;
 }
