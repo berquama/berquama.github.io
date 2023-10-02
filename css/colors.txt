@@ -1,0 +1,7 @@
+Green > 1efca7
+
+Red > fa0347
+
+Nuetral > 2e495e
+
+Other > 80eb09

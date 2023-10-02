@@ -4,7 +4,6 @@ body {
 }
 #header-logo {
   width: 85%;
-  border: solid #39ff14 5px;
   border-radius: 50%;
 }
 
@@ -13,7 +12,7 @@ body {
 }
 
 #vertical-name {
-  color: #39ff14;
+  color: #1efca7;
   transform: rotate(270deg);
 }
 
@@ -45,7 +44,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #2e495e;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -55,7 +54,7 @@ body {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 14px;
-  color: #818181;
+  color: #80eb09;
   display: block;
   transition: 0.3s;
 }
