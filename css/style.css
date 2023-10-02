@@ -1,19 +1,20 @@
 body {
   font-family: "Lato", sans-serif;
   background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
 }
 #header-logo {
-  width: 85%;
-  border-radius: 50%;
+  width: 100%;
+}
+#header-box, #navigation-links {
+  margin-bottom: 50px;
+  display: block;
 }
 
-#header-box, #vertical-name, #navigation-links {
-  margin-bottom: 100px;
-}
-
-#vertical-name {
-  color: #1efca7;
-  transform: rotate(270deg);
+#bottom-navigation {
+	margin-top: 100%;
+	text-align: center;
 }
 
 #summary-section {
@@ -39,7 +40,7 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 120px;
+  width: 100px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -47,20 +48,19 @@ body {
   background-color: #2e495e;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 14px;
-  color: #80eb09;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #80eb09;
 }
 
 .sidenav .closebtn {
