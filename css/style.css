@@ -5,20 +5,20 @@ body {
   width: 100%;
 }
 #header-logo {
-  width: 100%;
-  opacity: .8;
-   display: block;
-	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding: 25px 0px;
 }
 
 #navigation-links {
-	height: 75%;
 	width: 100%;
 }
 
 #bottom-navigation {
 	text-align: center;
-	height: 10%;
+	padding-top: 25px;
 }
 
 
@@ -62,14 +62,15 @@ body {
 .button-container {
   position: relative;
   width: 100%;
-  padding: 1px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-#nav-image {
+.nav-image {
   display: block;
-  width: 100%;
-  height: auto;
-  opacity: .8;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 .overlay {
@@ -91,7 +92,9 @@ body {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
   position: absolute;
   top: 50%;
   left: 50%;
