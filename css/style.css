@@ -1,10 +1,11 @@
 html {
+	background-image: url('../images/background-image.jpg');
+	width: 100%;
 	height: 100%;
 }
 
 body {
   font-family: "Lato", sans-serif;
-  background-image: url('../images/background-image.jpg');
   width: 100%;
   height: 100%;
 }
@@ -13,38 +14,30 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
+	opacity: 1;
 }
 
-#navigation-links {
-	width: 100%;
-	height: 60%;
-}
-
-
-.mainContent {
-	height: 100%;
-	width: 75%;
-	background-color: rgba(33, 33, 33, 1);
-	transition: 0.5s;
-	border-radius: 20px;
+.main-container {
+	max-width: 75%;
 	float: right;
-	margin: 10px;
-    border-style: solid;
-    border-color: purple;
+    margin: 20px;
+	background-color: black;
+	opacity: .8;
+	border-radius: 20px;
+	padding: 25px;
+	color: white;
 }
 
 .sidenav {
-  height: 100%;
-  width: 20%;
+  width: 15%;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(33, 33, 33, 1);
   overflow: hidden;
   transition: 0.5s;
   margin: 10px;
-  border-radius: 20px;
+  border-radius: 50%;
   border: solid 2px #1DB954;
 }
 
@@ -77,10 +70,6 @@ body {
   transition: .5s ease;
 }
 
-.button-container:hover .overlay {
-  background-color: #535353;
-  opacity: .4;
-}
 
 .text {
   color: white;
