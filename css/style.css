@@ -1,5 +1,5 @@
 html {
-	background-image: url('../images/background-image.jpg');
+	background-image: url('../images/background-image.png');
 	width: 100%;
 	height: 100%;
 }
@@ -9,6 +9,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 #header-logo {
 	display: block;
 	margin-left: auto;
@@ -21,11 +22,18 @@ body {
 	max-width: 75%;
 	float: right;
     margin: 20px;
-	background-color: black;
-	opacity: .8;
 	border-radius: 20px;
 	padding: 25px;
 	color: white;
+}
+
+.section {
+    border: 1px solid #1DB954;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+	background-color: black;
+	opacity: .85;
 }
 
 .sidenav {
@@ -36,55 +44,23 @@ body {
   left: 0;
   overflow: hidden;
   transition: 0.5s;
-  margin: 10px;
+  margin: 30px;
   border-radius: 50%;
   border: solid 2px #1DB954;
 }
 
-
-/** Image Overlay **/
-
-.button-container {
-  position: relative;
-  width: 100%;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.nav-image {
-  display: block;
-  margin-left: 20px;
-  margin-right: auto;
-  width: 10%;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: .8;
-  transition: .5s ease;
+h2 {
+	color: #1DB954;
 }
 
 
-.text {
-  color: white;
-  font-size: 14px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-@media screen and (max-height: 450px) {
-  
+@media screen and (max-width: 800px) {
+  .sidenav {
+	margin: 10px;
+	background-color: blue;
+	width: 100%;
+	height: 80px;
+  }
+  .main-container {
+	margin-top: 80px;
 }
